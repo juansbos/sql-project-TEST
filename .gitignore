@@ -1,0 +1,36 @@
+### ENTORNOS VIRTUALES Y DEPENDENCIAS ###
+# Siempre ignora el venv, no importa cómo lo llames
+venv/
+.venv/
+env/
+bin/
+lib/
+# Dependencias de Node (si aplica)
+node_modules/
+
+### ARCHIVOS DE CONFIGURACIÓN Y SECRETOS ###
+# ¡Crucial! Nunca subas tus llaves o credenciales
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+credentials.py
+
+### ARCHIVOS DEL SISTEMA Y EDITORES ###
+# Archivos basura de macOS y Windows
+.DS_Store
+Thumbs.db
+# Configuraciones de VS Code o PyCharm
+.vscode/
+.idea/
+
+### CACHÉ Y TEMPORALES ###
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.cache/
+
+### PERSONAL
+gitnot/
